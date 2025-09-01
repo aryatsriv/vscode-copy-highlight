@@ -1,0 +1,77 @@
+{
+  "name": "copy-highlight",
+  "displayName": "copy/cut with highlight",
+  "description": "",
+  "version": "1.0.1",
+  "author": "Aryat Srivastava",
+  "publisher":"octo-potato",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.1.8"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copyHighlight.copy",
+        "title": "Copy with Highlight"
+      }
+    ],
+    "configuration": {
+      "title": "Copy Highlight",
+      "properties": {
+        "copyHighlight.backgroundColor": {
+          "type": "string",
+          "default": "#ffff00",
+          "description": "Background color for copy highlighting (hex color)"
+        },
+        "copyHighlight.transparency": {
+          "type": "number",
+          "default": 0.4,
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Transparency level for copy highlighting (0 = fully transparent, 1 = fully opaque)"
+        },
+        "copyHighlight.duration": {
+          "type": "number",
+          "default": 200,
+          "minimum": 100,
+          "maximum": 5000,
+          "description": "Duration in milliseconds to show the highlight"
+        }
+      }
+    },
+    "keybindings": [
+      {
+        "command": "copyHighlight.copy",
+        "key": "ctrl+c",
+        "mac": "cmd+c",
+        "when": "editorFocus"
+      }
+
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.102.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.9.2",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
