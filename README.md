@@ -1,17 +1,22 @@
 # Copy Highlight
 
-A VS Code extension that provides visual feedback when copying text by briefly highlighting the selected text.
+A VS Code extension that highlights selected text on copy operations.  
+While it works great with copy operations, you can configure any custom keyboard shortcut to trigger the highlight effect (see [Custom Keyboard Shortcuts](#custom-keyboard-shortcuts)).
+
+//Todo: Add screenshot here
 
 ## Features
 
--   **Visual Copy Feedback**: Highlights selected text when copying to provide instant visual confirmation
+-   **Visual Feedback**: Highlights selected text with copy shortcut or any customizable keyboard shortcuts
+-   **Copy Integration**: Works seamlessly with standard copy operations Ctrl+C (Cmd+C for mac)
+-   **Custom Shortcuts**: Configure any keyboard shortcut to trigger highlighting
 -   **Customizable Highlighting**: Configure background color, transparency, and duration
 -   **Non-intrusive**: Highlight automatically disappears after a configurable duration
--   **Seamless Integration**: Works with the standard Ctrl+C (Cmd+C on Mac) keyboard shortcut
+-   **Flexible Usage**: Use with copy operations or as a standalone text highlighter
 
 ![Copy Highlight Demo](images/demo.gif)
 
-> The extension briefly highlights selected text when you copy, making it clear what was copied to the clipboard.
+> The extension highlights selected text when triggered, making it clear what text is being focused on. Works with copy operations or custom shortcuts.
 
 ## Requirements
 
@@ -27,11 +32,33 @@ This extension contributes the following settings:
 
 ## Usage
 
+### Default Copy Highlighting
+
 1. Select any text in the editor
 2. Press `Ctrl+C` (or `Cmd+C` on Mac) to copy
 3. The selected text will briefly highlight to confirm the copy operation
 
+### Custom Keyboard Shortcuts
+
+You can configure any keyboard shortcut to trigger the highlight effect:
+
+1. Open VS Code Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
+2. Type "Preferences: Open Keyboard Shortcuts (JSON)"
+3. Add your custom keybinding:
+
+```json
+{
+    "key": "ctrl+shift+i",
+    "command": "copyHighlight.highlight",
+    "when": "editorTextFocus"
+}
+```
+
+Replace `ctrl+shift+i` with your preferred key combination. Now you can highlight selected text anytime without copying!
+
 ## Configuration
+
+### Appearance Settings
 
 You can customize the highlight appearance by modifying these settings in your VS Code settings:
 
@@ -43,10 +70,43 @@ You can customize the highlight appearance by modifying these settings in your V
 }
 ```
 
+### Custom Keyboard Shortcuts
+
+Configure your own shortcuts to trigger highlighting without copying:
+
+**Method 1: Via Command Palette**
+
+1. Open Command Palette (`Ctrl+Shift+P`)
+2. Type "Preferences: Open Keyboard Shortcuts"
+3. Search for "copyHighlight.highlight"
+4. Click the "+" icon to add a new keybinding
+
+**Method 2: Via JSON Configuration**
+
+1. Open Command Palette and select "Preferences: Open Keyboard Shortcuts (JSON)"
+2. Add your custom keybinding:
+
+```json
+[
+    {
+        "key": "ctrl+alt+h",
+        "command": "copyHighlight.highlight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "f9",
+        "command": "copyHighlight.highlight",
+        "when": "editorTextFocus"
+    }
+]
+```
+
+Choose any key combination that works best for your workflow!
+
 ## Known Issues
 
-Currently known issues can be seen here https://github.com/aryatsriv/vscode-copy-higlight/issues
-Please report any issues on https://github.com/aryatsriv/vscode-copy-higlight.
+Currently known issues can be seen here https://github.com/aryatsriv/vscode-copy-highlight/issues
+Please report any issues on https://github.com/aryatsriv/vscode-copy-highlight.
 
 ## Release Notes
 
