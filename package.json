@@ -6,6 +6,7 @@
   "author": "Aryat Srivastava",
   "publisher":"octo-potato",
   "license": "MIT",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.1.8"
   },
@@ -31,7 +32,7 @@
         },
         "copyHighlight.transparency": {
           "type": "number",
-          "default": 0.4,
+          "default": 0.3,
           "minimum": 0,
           "maximum": 1,
           "description": "Transparency level for copy highlighting (0 = fully transparent, 1 = fully opaque)"
