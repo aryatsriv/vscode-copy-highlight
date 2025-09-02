@@ -1,9 +1,21 @@
 # Change Log
 
-All notable changes to the "copy-highlight" extension will be documented in this file.
+All notable changes to the "copy-highlight" extension will be documented here for their version.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.1] - 2025-09-03
 
-## [Unreleased]
+### Added
 
-- Initial release
+-   Enhanced configuration options
+-   Better error handling
+
+## [1.0.0] - 2025-09-03
+
+### Added
+
+-   Initial release with basic copy highlighting functionality
+-   Visual copy feedback that highlights selected text when copying
+-   Customizable highlighting with configurable background color, transparency, and duration
+-   Non-intrusive highlight that automatically disappears after a configurable duration
+-   Seamless integration with standard Ctrl+C (Cmd+C on Mac) keyboard shortcut
+-   Extension settings for backgroundColor, transparency, and duration
