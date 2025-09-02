@@ -1,14 +1,18 @@
 {
   "name": "copy-highlight",
-  "displayName": "copy/cut with highlight",
-  "description": "",
+  "displayName": "Copy Highlight",
+  "description": "Visual feedback when copying text - briefly highlights selected text to confirm copy operations",
   "version": "1.0.1",
   "author": "Aryat Srivastava",
   "publisher":"octo-potato",
   "license": "MIT",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aryatsriv/vscode-copy-higlight.git"
+  },
   "engines": {
-    "vscode": "^1.1.8"
+    "vscode": "^1.102.0"
   },
   "categories": [
     "Other"
