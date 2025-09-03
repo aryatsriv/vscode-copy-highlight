@@ -105,8 +105,8 @@ Choose any key combination that works best for your workflow!
 
 ## Known Issues
 
-Currently known issues can be seen here https://github.com/aryatsriv/vscode-copy-highlight/issues
-Please report any issues on https://github.com/aryatsriv/vscode-copy-highlight.
+Currently known issues can be seen here [Repo](https://github.com/aryatsriv/vscode-copy-highlight/issues)
+Please report any issues on [Known Issue](https://github.com/aryatsriv/vscode-copy-highlight)
 
 ## Release Notes
 
