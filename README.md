@@ -103,11 +103,11 @@ Configure your own shortcuts to trigger highlighting without copying:
 
 Choose any key combination that works best for your workflow!
 
-## Known Issues
+## Known Issues and Repo
 
-Currently known issues can be seen here [Repo](https://github.com/aryatsriv/vscode-copy-highlight/issues)
+Repository and code for extension can be seen here [Repo](https://github.com/aryatsriv/vscode-copy-highlight)
 
-Please report any issues on [Known Issue](https://github.com/aryatsriv/vscode-copy-highlight)
+Please report any issues on [Known Issue](https://github.com/aryatsriv/vscode-copy-highlight/issues)
 
 ## Release Notes
 
