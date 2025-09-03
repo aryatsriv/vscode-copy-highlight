@@ -4,7 +4,7 @@
   "description": "Visual feedback when copying text - briefly highlights selected text to confirm copy operations",
   "version": "1.0.1",
   "author": "Aryat Srivastava",
-  "publisher":"octo-potato",
+  "publisher": "octo-potato",
   "license": "MIT",
   "icon": "icon.png",
   "repository": {
@@ -12,12 +12,14 @@
     "url": "https://github.com/aryatsriv/vscode-copy-higlight.git"
   },
   "engines": {
-    "vscode": "^1.1.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onStartupFinished"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -57,7 +59,6 @@
         "mac": "cmd+c",
         "when": "editorFocus"
       }
-
     ]
   },
   "scripts": {
@@ -69,14 +70,14 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.102.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
+    "@types/vscode": "^1.60.0",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
-    "eslint": "^9.32.0",
-    "typescript": "^5.9.2",
     "@vscode/test-cli": "^0.0.11",
-    "@vscode/test-electron": "^2.5.2"
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.32.0",
+    "typescript": "^5.9.2"
   }
 }
