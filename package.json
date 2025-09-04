@@ -2,7 +2,7 @@
   "name": "copy-highlight",
   "displayName": "Copy Highlight",
   "description": "Visual feedback when copying text - briefly highlights selected text to confirm copy operations",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "author": "Aryat Srivastava",
   "publisher": "octo-potato",
   "license": "MIT",
