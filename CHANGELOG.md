@@ -2,6 +2,18 @@
 
 All notable changes to the "copy-highlight" extension will be documented here for their version.
 
+## [1.1.1] - 2025-09-04
+
+### Added
+
+-   Smart highlighting that works with empty selections - now highlights entire line when copying without selecting text
+-   Improved copy behavior to match VS Code's native line copying functionality
+-   Enhanced user experience for common copy operations
+
+### Fixed
+
+-   Extension now properly highlights content when using Ctrl+C without text selection
+
 ## [1.0.1] - 2025-09-03
 
 ### Added

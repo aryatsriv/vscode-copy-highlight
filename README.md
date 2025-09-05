@@ -111,9 +111,9 @@ Please report any issues on [Known Issue](https://github.com/aryatsriv/vscode-co
 
 ## Release Notes
 
-### 1.0.1
+### 1.1.1
 
--   Enhanced configuration options
--   Better error handling
+-   **Smart Line Highlighting**: Extension now highlights entire lines when copying without text selection
+-   **Enhanced User Experience**: Works seamlessly whether you select text or just position cursor on a line
 
 **Enjoy!**
