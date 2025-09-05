@@ -20,7 +20,7 @@ While it works great with copy operations, you can configure any custom keyboard
 
 ## Requirements
 
--   VS Code 1.1.8 or higher
+-   VS Code 1.60.0 or higher
 
 ## Extension Settings
 
@@ -48,13 +48,13 @@ You can configure any keyboard shortcut to trigger the highlight effect:
 
 ```json
 {
-    "key": "ctrl+shift+i",
+    "key": "ctrl+shift+I",
     "command": "copyHighlight.highlight",
     "when": "editorTextFocus"
 }
 ```
 
-Replace `ctrl+shift+i` with your preferred key combination. Now you can highlight selected text anytime without copying!
+Replace `ctrl+shift+I` with your preferred key combination. Now you can highlight selected text anytime without copying!
 
 ## Configuration
 
@@ -79,7 +79,8 @@ Configure your own shortcuts to trigger highlighting without copying:
 1. Open Command Palette (`Ctrl+Shift+P`)
 2. Type "Preferences: Open Keyboard Shortcuts"
 3. Search for "copyHighlight.highlight"
-4. Click the "+" icon to add a new keybinding
+4. Right click on the line related to "copyHighlight.highlight" and select "Add keybinding"
+5. Enter your custom keybinding
 
 **Method 2: Via JSON Configuration**
 
