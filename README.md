@@ -49,7 +49,7 @@ You can configure any keyboard shortcut to trigger the highlight effect:
 ```json
 {
     "key": "ctrl+shift+I",
-    "command": "copyHighlight.copy",
+    "command": "copyHighlight.highlight",
     "when": "editorTextFocus"
 }
 ```
@@ -78,8 +78,8 @@ Configure your own shortcuts to trigger highlighting without copying:
 
 1. Open Command Palette (`Ctrl+Shift+P`)
 2. Type "Preferences: Open Keyboard Shortcuts"
-3. Search for "copyHighlight.copy"
-4. Right click on the line related to "copyHighlight.copy" and select "Add keybinding"
+3. Search for "copyHighlight.highlight"
+4. Right click on the line related to "copyHighlight.highlight" and select "Add keybinding"
 5. Enter your custom keybinding
 
 **Method 2: Via JSON Configuration**
@@ -91,12 +91,12 @@ Configure your own shortcuts to trigger highlighting without copying:
 [
     {
         "key": "ctrl+alt+h",
-        "command": "copyHighlight.copy",
+        "command": "copyHighlight.highlight",
         "when": "editorTextFocus"
     },
     {
         "key": "f9",
-        "command": "copyHighlight.copy",
+        "command": "copyHighlight.highlight",
         "when": "editorTextFocus"
     }
 ]

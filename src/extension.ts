@@ -9,7 +9,7 @@ import { highlight } from "./commands/highlight";
 export function activate(context: vscode.ExtensionContext) {
     // Register copy command
     const copyDisposable = vscode.commands.registerCommand(
-        "copyHighlight.copy",
+        "copyHighlight.highlight",
         () => highlight("editor.action.clipboardCopyAction")
     );
 

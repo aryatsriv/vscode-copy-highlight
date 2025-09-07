@@ -24,7 +24,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "copyHighlight.copy",
+        "command": "copyHighlight.highlight",
         "title": "Copy with Highlight"
       }
     ],
@@ -54,7 +54,7 @@
     },
     "keybindings": [
       {
-        "command": "copyHighlight.copy",
+        "command": "copyHighlight.highlight",
         "key": "ctrl+c",
         "mac": "cmd+c",
         "when": "editorFocus"
