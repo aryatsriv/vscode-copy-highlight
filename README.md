@@ -1,9 +1,10 @@
 # Copy Highlight
 
-A VS Code extension that highlights selected text on copy operations.  
-While it works great with copy operations, you can configure any custom keyboard shortcut to trigger the highlight effect (see [Custom Keyboard Shortcuts](#custom-keyboard-shortcuts)).
+The extension highlights selected text when triggered, making it clear what text is being focused on. Works with copy operations or custom shortcuts.
 
-//Todo: Add screenshot here
+<img src="assets/CopyHighlightScreenshot.png" alt="Screenshot" width="400"/>
+
+While it works great with copy operations, you can configure any custom keyboard shortcut to trigger the highlight effect (see [Custom Keyboard Shortcuts](#custom-keyboard-shortcuts)).
 
 ## Features
 
@@ -13,10 +14,6 @@ While it works great with copy operations, you can configure any custom keyboard
 -   **Customizable Highlighting**: Configure background color, transparency, and duration
 -   **Non-intrusive**: Highlight automatically disappears after a configurable duration
 -   **Flexible Usage**: Use with copy operations or as a standalone text highlighter
-
-![Copy Highlight Demo](images/demo.gif)
-
-> The extension highlights selected text when triggered, making it clear what text is being focused on. Works with copy operations or custom shortcuts.
 
 ## Requirements
 
@@ -111,6 +108,10 @@ Repository and code for extension can be seen here [Repo](https://github.com/ary
 Please report any issues on [Known Issue](https://github.com/aryatsriv/vscode-copy-highlight/issues)
 
 ## Release Notes
+
+### 1.1.2
+
+-   **Screenshot added**: Screenshot added for better clarity
 
 ### 1.1.1
 
