@@ -40,24 +40,6 @@ This extension contributes the following settings:
 2. Press `Ctrl+C` (or `Cmd+C` on Mac) to copy
 3. The selected text will briefly highlight to confirm the copy operation
 
-### Custom Keyboard Shortcuts
-
-You can configure any keyboard shortcut to trigger the highlight effect:
-
-1. Open VS Code Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
-2. Type "Preferences: Open Keyboard Shortcuts (JSON)"
-3. Add your custom keybinding:
-
-```json
-{
-    "key": "ctrl+shift+I",
-    "command": "copyHighlight.highlight",
-    "when": "editorTextFocus"
-}
-```
-
-Replace `ctrl+shift+I` with your preferred key combination. Now you can highlight selected text anytime without copying!
-
 ## Configuration
 
 ### Appearance Settings
