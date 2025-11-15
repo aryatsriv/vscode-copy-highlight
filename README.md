@@ -1,11 +1,16 @@
 # Copy Highlight
 
-The extension highlights selected text when triggered, making it clear what text is being focused on. Works with copy operations or custom shortcuts.
+The extension highlights selected text when triggered, making it clear what text is being focused on. Works with copy operations or custom shortcuts. This is heavily inspired by neovim copy highlight feature.
 
 <img src="assets/CopyHighlightScreenshot.png" alt="Screenshot" width="400"/>
 
 While it works great with copy operations, you can configure any custom keyboard shortcut to trigger the highlight effect (see [Custom Keyboard Shortcuts](#custom-keyboard-shortcuts)).
 
+## Problems we are trying to solve
+-   You don't have to think if the text was copied, you get a visual feedback.
+    - Example: People sometimes hit copy multiple times to be sure, using this the UI instantly shows that each copy action worked.
+-   You can see the exact text that was copied, including spaces.
+    - Example: When copying a token or command where trailing spaces matter, you can verify immediately that it copied correctly.
 ## Features
 
 -   **Visual Feedback**: Highlights selected text with copy shortcut or any customizable keyboard shortcuts
