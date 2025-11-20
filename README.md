@@ -2,7 +2,13 @@
 
 The extension highlights selected text when triggered, making it clear what text is being focused on. Works with copy operations or custom shortcuts. This is heavily inspired by neovim copy highlight feature.
 
-<img src="assets/CopyHighlightScreenshot.png" alt="Screenshot" width="400"/>
+- Example 1:
+
+<img src="assets/Screencast_Highlight.gif" alt="Screenshot" width="700"/>
+
+- Example 2:
+
+<img src="assets/Screencast_MultiCursorHighlight.gif" alt="Screenshot" width="700"/>
 
 While it works great with copy operations, you can configure any custom keyboard shortcut to trigger the highlight effect (see [Custom Keyboard Shortcuts](#custom-keyboard-shortcuts)).
 
@@ -95,6 +101,10 @@ Repository and code for extension can be seen here [Repo](https://github.com/ary
 Please report any issues on [Known Issue](https://github.com/aryatsriv/vscode-copy-highlight/issues)
 
 ## Release Notes
+
+### 1.1.3
+
+- **Added Screenshot GIF**: Added screenshot GIF
 
 ### 1.1.2
 
