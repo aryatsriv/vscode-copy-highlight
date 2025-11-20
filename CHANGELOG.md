@@ -2,7 +2,15 @@
 
 All notable changes to the "copy-highlight" extension will be documented here for their version.
 
-## [1.1.1] - 2025-09-04
+
+## [1.2.2] - 2025-11-20
+
+### Added
+
+- GIF Image for better visibility
+
+
+## [1.2.1] - 2025-09-04
 
 ### Added
 

@@ -100,19 +100,11 @@ Repository and code for extension can be seen here [Repo](https://github.com/ary
 
 Please report any issues on [Known Issue](https://github.com/aryatsriv/vscode-copy-highlight/issues)
 
-## Release Notes
+## What's new ?
 
-### 1.1.3
+### 1.2.2
 
 - **Added Screenshot GIF**: Added screenshot GIF
 
-### 1.1.2
-
--   **Screenshot added**: Screenshot added for better clarity
-
-### 1.1.1
-
--   **Smart Line Highlighting**: Extension now highlights entire lines when copying without text selection
--   **Enhanced User Experience**: Works seamlessly whether you select text or just position cursor on a line
 
 **Enjoy!**
