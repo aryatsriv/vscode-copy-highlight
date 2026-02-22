@@ -2,6 +2,8 @@
 
 The extension highlights selected text when triggered, making it clear what text is being focused on. Works with copy operations or custom shortcuts. This is heavily inspired by neovim copy highlight feature.
 
+Extension Link :- https://marketplace.visualstudio.com/items?itemName=octo-potato.copy-highlight
+
 - Example 1:
 
 <img src="assets/Screencast_Highlight.gif" alt="Screenshot" width="700"/>
